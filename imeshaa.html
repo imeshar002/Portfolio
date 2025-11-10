@@ -2,12 +2,17 @@
 <html>
 <head>
     <title>ImeshaRuwangi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 </head>    
 <body>
   <section id="nav-bar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
          <a class="navbar-brand" href="#"><img src="images/navbar.jpg" alt="logo" width="50" height="50"></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +44,7 @@
    </div>
   </nav>    
   <section id="home">
-          <h1 class="text-center mt-5 mb-3">HELLO!</h1>
+          <h1 class="text-center mt-5 mb-3">HEY THERE!</h1>
   </section>
   <section id="about" class="my-5">
     <div class="container">
@@ -68,6 +73,7 @@
              <li>CSS</li>
              <li>JavaScript</li>
             <li>Bootstrap</li>
+            <li>GitHUb/Version control</li>
            </ul>
           </div>
         </div>
@@ -90,22 +96,22 @@
       <tbody>
         <tr>
             <td>Simple Calculator</td>
-            <td>This is a simple calculator. This can be used for addition, subtraction, multiplication and division</td>
+            <td>Developed a menu-driven Calculator supporting addition, subtraction, multiplication and division. Focused on clean input validation and modular code</td>
             <td>C Language</td>
         </tr>
         <tr>
             <td>Library Management System</td>
-            <td>This can perform these tasks, add book, view book, borrow book</td>
+            <td>Built a system to manage books including adding, viewing, searching and borrowing funcationality. Implemented data storage using files for persistence.</td>
             <td>C Language</td>
         </tr>
         <tr>
             <td>Logistics Management System</td>
-            <td>This is a delivery tracking system</td>
+            <td>A menu driven logistics management system that allows management of cities, distances and vehicles. Features include adding and tracking deliveries, calculating delivery cost, delivery time and fuel usage, and generating performance reports for efficient logistics planning.</td>
             <td>C Language</td>
         </tr>
         <tr>
             <td>Portfolio Webpage</td>
-            <td>This is a basic portfolio webpage</td>
+            <td>Designed  and implemented a personal portfolio website to showcase projects and skills.</td>
             <td>HTML, CSS, Bootstrap</td>
         </tr>
       </tbody>
@@ -118,7 +124,8 @@
       </div>
     </section>
     <section id="contact" class="my-5">
-      <div class="container">
+      <div class="container d-flex">
+        <div class="contact-left" style="flex: 1; max-width: 600px;">
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, feel free to use the form below:</p>
         <form>
@@ -136,13 +143,26 @@
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
+        </div>
       </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <footer class="footer-small">
-      <div class="footer-bg">
-        <img src="images/footer2.jpg" alt="Footer Image" class="footer-img">
+  <section id="follow-me"  class="my-5">
+    <div class="container text-center">
+      <h3 style="font-size: 2rem; margin-bottom: 20px;">Follow Me</h3>
+      <div class="social-links" style="font-size: 1.5rem;">
+        <a href="mailto:imesha.r02@gmail.com" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-envelope-fill"></i>Email
+        </a>
+         <a href="https://www.linkedin.com/in/imesha-abeysekara-2801722b9" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-linkedin"></i>Linkedin
+        </a>
+        <a href="https://github.com/imeshar002" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-github"></i>Github
+        </a>
       </div>
-    </footer>
+    </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <footer class="footer-small"></footer>
 </body>
 </html>
