@@ -121,7 +121,8 @@ body, html {
     position: relative;
     margin-top: 0;
     padding-top: 0;
-    background: linear-gradient(to top, #b1f3b1 0%, #ffffff 100%); 
+    background color: #b1f3b1;
+    border-top: 0;
 }
 .footer-small .footer-bg {
     width: 100%;
@@ -185,3 +186,16 @@ section{
     max-width: 100%;
     height: auto;
 }
+#follow-me{
+    background: linear-gradient(to bottom,#b1f3b1 0%, #a0e9ff 20%, #b1f3b1 100);
+    padding: 40px 0;
+}
+#follow-me a{
+    text-decoration: none;
+    color: #0d3b66;
+    font-size: 1.8rem;
+}
+#follow-me a:hover{
+    color: #5f1782;
+}
+
